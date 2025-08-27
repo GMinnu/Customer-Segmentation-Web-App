@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Segmentation Results</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Cluster Results:</h2>
+      <img
+        src="{{ img_file }}"
+        alt="Cluster Plot"
+        style="width: 90%; border-radius: 8px"
+      />
+      <br />
+      <a href="/">Upload another file</a>
+    </div>
+  </body>
+</html>
